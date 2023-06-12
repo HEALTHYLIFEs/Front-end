@@ -8,6 +8,7 @@
     top: 0;
     z-index: 99;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    font-family: "Poppins";
   }
   
   .app-bar .app-bar-menu {
@@ -67,7 +68,7 @@
     margin-bottom: 5px;
     width: 100%;
     color: #fafafa;
-    font-size: 19px;
+    font-size: 16px;
     font-weight: bold;
     padding: 20px 20px;
     transition: all 0.4s ease 0s;
