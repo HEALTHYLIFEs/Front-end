@@ -29,6 +29,21 @@ html {
 .skip-link:focus {
   top: 0;
 }
+.app-bar-title {
+  position: absolute;
+  width: 100px;
+  height: 75px;
+  left: 155px;
+  top: 10px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 90px;
+
+  color: #FFFFFF;
+}
 
 .hero {
   display: flex;
@@ -86,7 +101,7 @@ html {
   width: 141px;
   height: 67px;
   left: 160px;
-  top: 520px;
+  top: 490px;
 
   font-family: "Poppins";
   font-style: normal;
@@ -94,14 +109,14 @@ html {
   font-size: 60px;
   line-height: 90px;
 
-  color: #428387;
+  color: #FFFFFF;
 }
 .heroTitle2 {
   position: absolute;
   width: 141px;
   height: 67px;
   left: 560px;
-  top: 520px;
+  top: 490px;
 
   font-family: "Poppins";
   font-style: normal;
@@ -116,7 +131,7 @@ html {
   width: 141px;
   height: 67px;
   left: 695px;
-  top: 520px;
+  top: 490px;
 
   font-family: "Poppins";
   font-style: normal;
@@ -124,5 +139,5 @@ html {
   font-size: 60px;
   line-height: 90px;
 
-  color: #428387;
+  color: #FFFFFF;
 }
