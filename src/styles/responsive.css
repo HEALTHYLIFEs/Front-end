@@ -24,23 +24,12 @@
     top: 90px;
     width: fit-content;
     overflow: hidden;
-
   }
-
 
 }
 
 @media only screen and (max-width: 650px) {
-  .resto-detail .detail .info, .overview {
-    padding: 4px 32px;
-
-  }
-
-  #resto-review .review {
-    padding-left: 32px;
-
-  }
-
+  
   .app-bar .app-bar-navigation.open {
     left: 0;
     top: 90px;
@@ -48,28 +37,42 @@
     overflow: hidden;
 
   }
+  .content {
+    flex-direction: column;
+    margin: 0%;
+  }
 
+  .content .textbox{
+    text-align: justify;
+    padding: 0px;
+    font-size: 17px;
+  
+  }
 
+  .heroTitle, .heroTitle2, .heroTitle3 {
+    color: transparent;
+  }
 }
 
 /* Styling untuk tampilan layar sedang (misalnya tablet) */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
   
-  .resto-detail .detail .info, .overview {
-    padding: 4px 32px;
+  .content {
+    flex-direction: column;
+    margin: 0%;
 
   }
 
-  #resto-review .review {
-    padding-left: 32px;
-
-  }
-
-  .resto-list {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
+  .content .textbox{
+    text-align: justify;
+    padding: 0px;
+    font-size: 17px;
   
+  }
+  
+  .heroTitle, .heroTitle2, .heroTitle3 {
+    color: transparent;
+  }
 }
 
 /* Styling untuk tampilan layar besar (misalnya desktop) */
@@ -102,28 +105,4 @@
     text-align: center;
     margin: 0;
   }
- 
-  .resto-list {
-    grid-template-columns: 1fr 1fr;
-  }
- 
-  .resto {
-    grid-template-columns: auto 1fr;
-  }
- 
-  .resto .resto-name {
-    grid-column-start: 1;
-    grid-column-end: 3;
-  }
- 
-  .resto .resto-description {
-    grid-column-start: 1;
-    grid-column-end: 3;
-  }
-
-  .resto-list {
-    grid-template-columns: repeat(4, 1fr);
-  }
-  
-  
 }
