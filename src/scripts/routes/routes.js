@@ -12,7 +12,6 @@ const routes = {
   '/detail/:id': Detail,
   '/calculator': Calculator,
   '/about': About,
-
 };
 
 export default routes;

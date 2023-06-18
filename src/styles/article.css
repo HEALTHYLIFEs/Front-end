@@ -1,0 +1,32 @@
+.article {
+    padding: 16px;
+    background-color: #fff;
+  }
+  
+  .article-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .article-content {
+    padding: 16px;
+    border: 1px solid #ccc;
+  }
+  
+  .article-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+  }
+  
+  .article-subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .article-text {
+    font-size: 16px;
+    line-height: 1.5;
+  }
