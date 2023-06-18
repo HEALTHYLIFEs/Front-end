@@ -15,7 +15,7 @@
 
 .card {
   background-color: #ffffff;
-  width: 200px;
+  width: 350px;
   padding: 20px;
   margin-bottom: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -43,11 +43,13 @@
 }
 
 .card .social-icons {
-  position: absolute;
+  position: relative;
+  display: flex;
+  margin-top: auto;
 width: 66px;
 height: 59px;
-left: 327px;
-top: 743px;
+left: 10px;
+top: 30px;
 }
 
 .card .social-icons a {
@@ -55,4 +57,5 @@ top: 743px;
   width: 24px;
   height: 24px;
   margin: 0 5px;
+  margin-right: 10px;
 }
