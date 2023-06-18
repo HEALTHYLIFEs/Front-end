@@ -1,37 +1,33 @@
+// article.js
+
 const Article = {
   async render() {
     return `
     <div class="content">
-      <h2 tabindex="0" class="content-heading">ARTIKEL HEALTYLIFE</h2>
-      <div id="article-list" class="article-list">
-        <article class="article-item">
-          <h3 class="article-title">Judul Artikel 1</h3>
-          <p class="article-content">
-            Konten artikel 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Assumenda, exercitationem incidunt aut unde pariatur beatae distinctio quibusdam 
-            ipsam commodi corrupti mollitia eos odit vero reprehenderit quas nobis earum hic?
-          </p>
-        </article>
-        <article class="article-item">
-          <h3 class="article-title">Judul Artikel 2</h3>
-          <p class="article-content">
-            Konten artikel 2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Assumenda, exercitationem incidunt aut unde pariatur beatae distinctio quibusdam 
-            ipsam commodi corrupti mollitia eos odit vero reprehenderit quas nobis earum hic?
-          </p>
-        </article>
-        <article class="article-item">
-          <h3 class="article-title">Judul Artikel 3</h3>
-          <p class="article-content">
-            Konten artikel 3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Assumenda, exercitationem incidunt aut unde pariatur beatae distinctio quibusdam 
-            ipsam commodi corrupti mollitia eos odit vero reprehenderit quas nobis earum hic?
-          </p>
-        </article>
-        <!-- Tambahkan artikel lain di sini -->
+      <div class="card">
+        <img src="./images/article1.jpg" alt="Article 1" class="card-img" />
+        <div class="card-body">
+          <h3 class="card-title"><button class="card-button">Article 1</button></h3>
+          <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget sapien non ex auctor facilisis.</p>
+        </div>
       </div>
-    </div>
-    `;
+      
+      <div class="card">
+        <img src="./images/article2.jpg" alt="Article 2" class="card-img" />
+        <div class="card-body">
+          <h3 class="card-title"><button class="card-button">Article 2</button></h3>
+          <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget sapien non ex auctor facilisis.</p>
+        </div>
+      </div>
+      
+      <div class="card">
+        <img src="./images/article3.jpg" alt="Article 3" class="card-img" />
+        <div class="card-body">
+          <h3 class="card-title"><button class="card-button">Article 3</button></h3>
+          <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget sapien non ex auctor facilisis.</p>
+        </div>
+      </div>
+    </div>`;
   },
 };
 

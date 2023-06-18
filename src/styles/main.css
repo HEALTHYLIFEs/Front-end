@@ -32,6 +32,9 @@ html {
   top: 0;
 }
 
+.mainContent {
+  background-color: white;
+}
 .content {
   justify-content: space-between;
   display: flex;

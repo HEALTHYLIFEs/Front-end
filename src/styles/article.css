@@ -3,6 +3,16 @@
     background-color: #fff;
   }
   
+  .main {
+    background-color: white;
+    color: white;
+  }
+
+  .mainContent {
+    background-color: white;
+    color: white;
+  }
+
   .article-title {
     font-size: 24px;
     font-weight: bold;
