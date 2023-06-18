@@ -14,11 +14,11 @@ const About = {
                                     <p>Front-end Developer</p>
                                     </div>
 
-                                    <!-- <div class="social-icons">
-                                    <a href="https://github.com/HilmaNurKh"><img src="./icons/logo/git.png" alt="GitHub"></a>
-                                    <a href="https://linkedin.com/in/hilma-nur-kholilah-927558275"><img src="./icons/logo/linkedin.png" alt="LinkedIn"></a>
-                                    <a href="https://instagram.com/hilmaaaa.nkh/"><img src="./icons/logo/ig.png" alt="Instagram"></a>
-                                    </div> --!>
+                                    <div class="social-icons">
+                                    <a href="https://www.instagram.com/hilmaaaa.nkh"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://github.com/HilmaNurKh"><i class="fab fa-github"></i></a>
+                                    <a href="https://www.linkedin.com/in/hilma-nur-kholilah-927558275"><i class="fab fa-linkedin"></i></a>
+                                    </div>
                         </div>
                         
                         <div class="card">
@@ -28,11 +28,11 @@ const About = {
                                     <p>Front-end Developer</p>
                                     </div>
 
-                                    <!-- <div class="social-icons">
-                                    <a href="https://github.com/TutiAlwyh"><img src="./icons/logo/git.png" alt="GitHub"></a>
-                                    <a href="https://linkedin.com/in/tutialwyh"><img src="./icons/logo/linkedin.png" alt="LinkedIn"></a>
-                                    <a href="https://instagram.com/hilmaaaa.nkh/"><img src="./icons/logo/ig.png" alt="Instagram"></a>
-                                    </div> --!>
+                                    <div class="social-icons">
+                                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://github.com/HilmaNurKh"><i class="fab fa-github"></i></a>
+                                    <a href="https://www.linkedin.com/in/hilma-nur-kholilah-927558275"><i class="fab fa-linkedin"></i></a>
+                                    </div>
                         </div>
             
                         <div class="card">
@@ -42,11 +42,11 @@ const About = {
                                     <p>Front-end Developer</p>
                                     </div>
 
-                                    <!-- <div class="social-icons">
-                                    <a href="https://github.com/Wahyuandii"><img src="./icons/logo/git.png" alt="GitHub"></a>
-                                    <a href="https://linkedin.com/in/wahyu-andi-saputra-598ab8278"><img src="./icons/logo/linkedin.png" alt="LinkedIn"></a>
-                                    <a href="https://instagram.com/hilmaaaa.nkh/"><img src="./icons/logo/ig.png" alt="Instagram"></a>
-                                    </div> --!>
+                                    <div class="social-icons">
+                                    <a href="https://www.instagram.com/andiii._"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://github.com/"><i class="fab fa-github"></i></a>
+                                    <a href="https://www.linkedin.com/in/hilma-nur-kholilah-927558275"><i class="fab fa-linkedin"></i></a>
+                                    </div>
                         </div>
 
                         <div class="card">
@@ -56,11 +56,11 @@ const About = {
                                     <p>Back-end Developer</p>
                                     </div>
 
-                                    <!-- <div class="social-icons">
-                                    <a href="https://github.com/yonand21"><img src="./icons/logo/git.png" alt="GitHub"></a>
-                                    <a href="https://linkedin.com/in/yonanda-putra-pamungkas"><img src="./icons/logo/linkedin.png" alt="LinkedIn"></a>
-                                    <a href="https://instagram.com/hilmaaaa.nkh/"><img src="./icons/logo/ig.png" alt="Instagram"></a>
-                                    </div> --!>
+                                    <div class="social-icons">
+                                    <a href="https://www.instagram.com/andiii._"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://github.com/"><i class="fab fa-github"></i></a>
+                                    <a href="https://www.linkedin.com/in/hilma-nur-kholilah-927558275"><i class="fab fa-linkedin"></i></a>
+                                    </div>
                         </div>
 
                         </div>
