@@ -1,7 +1,7 @@
 const Calculator = {
     async render() {
       return `
-     <div class="content">
+      <div class="content">
       <div class="divTable">
         <div class="divTableRow">
           <div class="divTableCellhd">BMI</div>
