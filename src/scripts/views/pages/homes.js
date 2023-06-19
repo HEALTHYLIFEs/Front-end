@@ -1,3 +1,7 @@
+import RestaurantSource from '../../data/Artikel-source';
+import { createArtikelItemTemplate } from '../templates/template-creator';
+
+
 const Home = {
   async render() {
     return `
@@ -18,8 +22,17 @@ const Home = {
       
     </div>
     <div class="herotag">
-      <h2 class="heroTitle">HEALTHYLIFE</h2> <h2 class="heroTitle2">FOR</h2> <h2 class="heroTitle3">HAPPYLIFE</h2>
+      <h2 class="heroTitle">HEALTHYLIFE FOR HAPPYLIFE</h2>
+      <div id="artikel-list" class="artikel-list"></div>
+    </div>      
     </div>`;
+  },
+  async afterRender() {
+    const restaurants = await RestaurantSource.getArtikel();
+    const restaurantsContainer = document.querySelector('#artikel-list');
+    restaurants.forEach((artikel) => {
+      restaurantsContainer.innerHTML += createArtikelItemTemplate(artikel);
+    });
   },
 };
 
