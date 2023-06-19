@@ -1,11 +1,23 @@
+import RestaurantSource from "../../data/Artikel-source";
+import { createArtikelItemTemplate } from "../templates/template-creator";
+
 const Article = {
   async render() {
     return `
-    <div class="content">
-      <h2 tabindex="0" class="content-heading">Daftar Restoran Favorite</h2>
-      <div id="resto-list" class="resto-list"></div>
-    </div>
-    `;
+    <div class="artikeltag">
+    <h2>HEALTHYLIFE Article</h2>
+    </div>  
+    <div class="contentArtikel">
+      <div id="artikel-list" class="artikel-list"></div>
+    </div>`;
+  },
+
+  async afterRender() {
+    const restaurants = await RestaurantSource.getArtikel();
+    const restaurantsContainer = document.querySelector('#artikel-list');
+    restaurants.forEach((artikel) => {
+      restaurantsContainer.innerHTML += createArtikelItemTemplate(artikel);
+    });
   },
 };
 
