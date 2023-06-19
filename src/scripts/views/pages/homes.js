@@ -18,7 +18,7 @@ const Home = {
       
     </div>
     <div class="herotag">
-      <h2 class="heroTitle">HEALTHYLIFE FOR HAPPYLIFE</h2>
+      <h2 class="heroTitle">HEALTHYLIFE</h2> <h2 class="heroTitle2">FOR</h2> <h2 class="heroTitle3">HAPPYLIFE</h2>
     </div>`;
   },
 };

@@ -44,7 +44,7 @@ html {
   min-height: 100vh;
   padding: 100px;
   color: white;
-  margin-top: -88px;
+  margin-top: -155px;
   margin-left: 88px;
 }
 
@@ -86,9 +86,25 @@ html {
 
 .heroTitle {
   position: relative;
+  justify-content: center;
+  height: 67px;
+  left: 250px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 90px;
+
+  color: #FFFFFF;
+}
+
+.heroTitle2 {
+  position: relative;
   text-align: center;
   justify-content: center;
   height: 67px;
+  top: -66px;
 
   font-family: "Poppins";
   font-style: normal;
@@ -97,4 +113,20 @@ html {
   line-height: 90px;
 
   color: #428387;
+}
+
+.heroTitle3 {
+  position: relative;
+  justify-content: center;
+  height: 67px;
+  top: -132px;
+  left: 790px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 90px;
+
+  color: #FFFFFF;
 }
