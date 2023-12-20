@@ -41,8 +41,6 @@ html {
   align-items: center;
   position: relative;
   width: 100%;
-  min-height: 100vh;
-  color: white;
 }
 
 .contentArtikel {
@@ -72,7 +70,7 @@ html {
 
 .selengkapnya {
   width: 230px;
-  height: 34px;
+  height: 48px;
   left: 98px;
   top: 450px;
   margin-top: 50px;
@@ -103,13 +101,13 @@ html {
   position: relative;
   text-align: center;
   justify-content: center;
-  height: 67px;
+  height: 142px;
 
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
-  line-height: 90px;
+  line-height: 290px;
 
   ;
 }
@@ -184,7 +182,6 @@ html {
 .artikel-item .artikel-item-content h2 a {
   color: #101111;
   text-decoration: none;
-  text-decoration: none;
   display: inline-block;
   min-width: 49px;
   min-height: 49px;
@@ -197,8 +194,10 @@ html {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 2; 
+  -webkit-line-clamp: 4; 
   -webkit-box-orient: vertical;
+  font: caption;
+  
 }
 
 .divTable {
