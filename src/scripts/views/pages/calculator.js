@@ -28,14 +28,7 @@ const Calculator = {
         </div>
       </div> 
       <div class="textbox">
-        <p>
-         Body Mass Index (BMI) atau yang sering dikenal dengan 
-         Indeks Massa Tubuh (IMT) adalah nilai ukur untuk 
-         mengetahui status gizi seseorang berdasarkan berat
-         dan tinggi badannya. Gunakan kalkulator ini untuk 
-         memeriksa indeks massa tubuh dan mengecek apakah berat 
-         badan anda ideal atau tidak
-        <P>
+        
       </div>   
     </div>
       <div class="container-calc">
