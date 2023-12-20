@@ -218,7 +218,8 @@ html {
   width: 25%;
   height: 100%;
   display: table-cell;
-  border: 1px solid #808080;
+  background-color: floralwhite;
+  text-align: center;
 }
 .divTableCellhd {
   background-color: #8ed2e8;
@@ -227,7 +228,6 @@ html {
   width: 25%;
   height: 100%;
   display: table-cell;
-  border: 1px solid #808080;
   text-align: center;
 
 }
